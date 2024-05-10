@@ -1,6 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-size: 14px;     
+font-family: Roboto, Arial, sans-serif;
+}
 nav {
-    background-color: steelblue;
-    padding: 10px;
+background-color: steelblue;
+padding: 10px;
 }
 nav a {
 color: white;
@@ -12,6 +21,7 @@ color: steelblue;
 }
 p {
     padding: 0;
+    margin: 1rem;
 }
 main {
     max-width: 840px;
@@ -32,17 +42,17 @@ height: auto;
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    float: right;
+    box-shadow: 0 0 30px, gray;
+    padding: 2px;
+    margin: 0 0 1rem 1rem;
+
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}
-*
-{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
 }
 /*Class selectors*/
 .box {
@@ -54,15 +64,18 @@ box-sizing: border-box;
     }
 
 aside {
+    position: relative;
     width: 25em;
     text-align: left;
-}
-main img {
-    float: right;
 }
 aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+    top: 50px;
+    left: 100pm;
+}
+indent{
+    padding-left: 2rem;
 }
 /*shalom*/
