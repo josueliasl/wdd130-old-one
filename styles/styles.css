@@ -45,7 +45,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     float: right;
-    box-shadow: 0 0 30px, gray;
+    box-shadow: 0 0 30px, blueviolet;
     padding: 2px;
     margin: 0 0 1rem 1rem;
 
@@ -76,7 +76,7 @@ aside h2 {
     top: 47px;
     left: 150px;
     top: 50px;
-    left: 100pm;
+    left: 60px;
 }
 indent{
     padding-left: 2rem;
