@@ -23,7 +23,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--Arial);
-    color: var(--Black);
+    color: var(--nav-background-color);
     }
 header {
     padding: 20px;
@@ -56,7 +56,7 @@ nav a:hover {
     height: auto;
 }
 .happy {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 500px; 
     background-image: url('happy.jpeg'); 
