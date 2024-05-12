@@ -55,3 +55,11 @@ nav a:hover {
     width: 100%;
     height: auto;
 }
+.happy {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-image: url('happy.jpeg'); 
+    background-size: cover;
+    background-position: center;
+}
