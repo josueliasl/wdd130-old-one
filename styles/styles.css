@@ -30,6 +30,7 @@ align-items: center;
 }
 h1 {
 color: steelblue;
+border-bottom: 5px solid steelblue;
 }
 p {
     padding: 0;
