@@ -28,6 +28,9 @@ align-items: center;
 h1 {
 color: steelblue;
 border-bottom: 1px solid steelblue;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 p {
     padding: 0;
