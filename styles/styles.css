@@ -44,6 +44,9 @@ background-color: #eee;
 color: #333;
 text-align: center;
 margin: 1rem;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 aside img {
 width: 200px;
