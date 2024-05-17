@@ -96,6 +96,9 @@ indent{
 header, footer, .grid {
     margin: 0 auto;
     max-width: 840px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .grid {
     display: grid;
