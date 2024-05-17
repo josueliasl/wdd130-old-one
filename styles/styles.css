@@ -60,6 +60,9 @@ main img {
     box-shadow: 0 0 30px blueviolet;
     padding: 2px;
     margin: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
