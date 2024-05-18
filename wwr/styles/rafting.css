@@ -27,42 +27,6 @@ body{
     height: auto;
     float: right;
 }
-.hero {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Adjust height as needed */
-    overflow: hidden; /* Ensure child elements don't overflow */
-  }
-  
-  /* Styles for the hero image */
-  .hero img {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-  }
-  
-  /* Styles for the h1 and article elements positioned on top of the hero image */
-  .hero h1, .hero article {
-    position: absolute;
-    top: 50%; /* Adjust vertically as needed */
-    left: 50%; /* Adjust horizontally as needed */
-    transform: translate(-50%, -50%); /* Center the elements */
-    color: white; /* Text color */
-    text-align: center; /* Center-align text */
-  }
-  
-  /* Additional styling for the h1 element */
-  .hero h1 {
-    font-size: 2.5rem; /* Adjust font size as needed */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 20px; /* Adjust spacing as needed */
-  }
-  
-  /* Additional styling for the article element */
-  .hero article {
-    font-size: 1.2rem; /* Adjust font size as needed */
-    max-width: 80%; /* Adjust width as needed */
-  }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--Arial);
     color: var(--nav-background-color);
