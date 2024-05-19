@@ -44,10 +44,11 @@ div.hero img {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
-    flex-flow: column;
+    flex-flow: row-reverse;
     padding: 5px;
     max-width: 220px;
     margin: auto;
+    
 }
   img {
     max-width: 150px;
@@ -69,7 +70,4 @@ footer {
   }
 .sociallinks{
     float: right
-}
-figure{
-    float:right;
 }
