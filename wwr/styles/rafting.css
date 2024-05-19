@@ -21,13 +21,13 @@ body{
     max-width: 960px;
     padding: 20px;
 }
-.hero img {
+div.hero.relative img {
     display: block;
     width: 100%;
     height: auto;
     float: right;
 }
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: var(--Arial);
     color: var(--nav-background-color);
     }
