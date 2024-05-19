@@ -41,13 +41,14 @@ h2, h3, h4, h5, h6 {
     font-family: var(--Arial);
     color: var(--nav-background-color);
     }
-header.grid {
+header{
     padding: 20px;
     background-color: var(--accent1-color);
-    margin: 0 auto;
-    max-width: 840px;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 1rem auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    border-bottom: 1px solid #ccc;
     align-items: center;
 }
 p{
