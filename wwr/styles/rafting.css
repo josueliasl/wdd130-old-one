@@ -85,16 +85,16 @@ margin: 1rem;
 figure {
   border: thin #c0c0c0 solid;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   padding: 5px;
   max-width: 220px;
   margin: auto;
-  justify-content: center;
 }
 
 img {
   max-width: 220px;
   max-height: 150px;
+  flex-flow: row;
 }
 
 figcaption {
