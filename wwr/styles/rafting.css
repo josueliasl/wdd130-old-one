@@ -53,7 +53,7 @@ figure {
     max-height: 150px;
   }
   
-  figcaption {
+figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
