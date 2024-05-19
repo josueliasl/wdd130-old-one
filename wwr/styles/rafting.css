@@ -107,3 +107,6 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+.menu button{
+  float: right;
+}
