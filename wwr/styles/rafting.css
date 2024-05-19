@@ -28,6 +28,11 @@ header{
   color: #CFD15E;
   font-size: 15px;
 }
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 20px;
+	height: auto;
+}
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
