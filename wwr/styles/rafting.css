@@ -89,13 +89,14 @@ figure {
   padding: 5px;
   max-width: 220px;
   margin: auto;
+  justify-content: center;
 }
 
 img {
   max-width: 220px;
   max-height: 150px;
   flex-flow: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 figcaption {
