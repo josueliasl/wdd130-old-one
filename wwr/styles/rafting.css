@@ -95,6 +95,7 @@ img {
   max-width: 220px;
   max-height: 150px;
   flex-flow: row;
+  justify-content: flex-end;
 }
 
 figcaption {
