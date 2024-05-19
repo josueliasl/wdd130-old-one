@@ -40,7 +40,7 @@ figure {
     flex-flow: row;
     padding: 5px;
     max-width: 220px;
-    margin: auto;
+    margin: auto;/**/
   }/**/
   
   img {
