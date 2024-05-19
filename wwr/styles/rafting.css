@@ -44,8 +44,8 @@ div.hero img {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
-    flex-flow: row-reverse;
-    grid-column-end: 5;/**/
+    flex-direction: row-reverse;
+    justify-content: center;/**/
     padding: 5px;
     max-width: 220px;
     margin: auto;
