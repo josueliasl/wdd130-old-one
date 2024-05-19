@@ -86,7 +86,7 @@ figure {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: row;
-  align-items: -1;
+  align-items: 1;
   padding: 5px;
   max-width: 220px;
   margin: auto;
