@@ -83,16 +83,17 @@ grid-column: 2/3;
 margin: 1rem;
 }
 figure {
+  justify-content: center;
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: row;
   padding: 5px;
   max-width: 220px;
   margin: auto;
-  justify-content: center;
 }
 
 img {
+  justify-content: center;
   max-width: 220px;
   max-height: 150px;
   flex-flow: row;
