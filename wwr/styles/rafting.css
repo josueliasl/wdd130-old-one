@@ -47,7 +47,7 @@ header{
     margin: 1rem auto;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 120px 2fr 1fr;
     border-bottom: 1px solid #ccc;
     align-items: center;
 }
