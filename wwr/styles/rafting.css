@@ -61,8 +61,9 @@ figure {
     text-align: center;
   }
 .sociallinks{
-    margin: 0 0.25rem 0 1rem;
-	width: 12px;
-	height: auto;
-    float: left;
-}
+  padding: 35px;
+  text-align: right;
+  background: #1abc9c;
+  color: #CFD15E;
+  font-size: 25px;
+}/**/
