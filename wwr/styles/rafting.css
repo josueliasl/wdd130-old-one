@@ -12,7 +12,7 @@ body{
     --heading-font: "Times new roman", serif;
     --paragraph-font:"Arial", serif;
     --nav-background-color: #04E762;
-    --nav-link-color: #000000;
+    --nav-link-color: #04E762;
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #04E762;
 }
