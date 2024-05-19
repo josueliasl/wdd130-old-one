@@ -85,7 +85,7 @@ margin: 1rem;
 figure {
   border: thin #c0c0c0 solid;
   display: flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
   padding: 5px;
   max-width: 220px;
   margin: auto;
