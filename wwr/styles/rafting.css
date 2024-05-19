@@ -40,7 +40,7 @@ div.hero img {
     height: auto;
     flex-direction: row;
     float: right;
-}/**/
+}
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
