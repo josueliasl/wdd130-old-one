@@ -21,13 +21,7 @@ body{
     max-width: 960px;
     padding: 20px;
 }
-header, footer{
-  padding: 35px;
-  text-align: right;
-  background: #1abc9c;
-  color: #CFD15E;
-  font-size: 25px;
-}
+
 .logo, footer {
 	margin: 0 0.25rem 0 1rem;
 	width: 12px;
