@@ -38,7 +38,7 @@ div.hero.relative img {
     display: block;
     width: 100%;
     height: auto;
-    float: center;
+    float: right;
 }
 figure {
     border: thin #c0c0c0 solid;
