@@ -65,5 +65,7 @@ footer {
     padding: 3px;
     background-color: #1abc9c;
     color: #CFD15E;
-    float: "right" ;
   }
+.sociallinks{
+    float: right
+}
