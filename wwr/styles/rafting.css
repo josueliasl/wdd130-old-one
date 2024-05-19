@@ -32,7 +32,7 @@ header{
 	margin: 0 0.25rem 0 1rem;
 	width: 12px;
 	height: auto;
-    float: right;
+    float: left;
 }
 div.hero.relative img {
     display: block;
