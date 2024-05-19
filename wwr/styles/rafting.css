@@ -43,13 +43,13 @@ div.hero img {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     padding: 5px;
     max-width: 220px;
     margin: auto;/**/
 }
   img {
-    max-width: 15opx;
+    max-width: 150px;
     max-height: 150px;
   }
   
