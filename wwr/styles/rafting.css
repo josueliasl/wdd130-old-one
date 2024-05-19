@@ -58,6 +58,7 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: right;
+    justify-content: flex-end;
 }
 nav a {
     display: block;
