@@ -14,7 +14,7 @@ body{
     --nav-background-color: #04E762;
     --nav-link-color: #04E762;
     --nav-hover-link-color: #04e;
-    --nav-hover-background-color: #04E762;
+    --nav-hover-background-color: #04E762;/**/
 }
 body{
     font-family: var(--poppins);
