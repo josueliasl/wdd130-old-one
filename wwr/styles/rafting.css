@@ -27,6 +27,11 @@ div.hero.relative img {
     height: auto;
     float: right;
 }
+h1{
+    position: absolute;
+    font-family: var(--Arial);
+    color: var(--nav-background-color)
+}  
 h2, h3, h4, h5, h6 {
     font-family: var(--Arial);
     color: var(--nav-background-color);
