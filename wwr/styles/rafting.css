@@ -45,7 +45,7 @@ figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;/**/
+    justify-content: center;
     padding: 5px;
     max-width: 220px;
     margin: auto;
