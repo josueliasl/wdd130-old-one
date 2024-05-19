@@ -28,7 +28,7 @@ header, footer{
   color: #CFD15E;
   font-size: 25px;
 }
-.logo, .sociallinks img {
+.logo {
 	margin: 0 0.25rem 0 1rem;
 	width: 12px;
 	height: auto;
@@ -64,4 +64,5 @@ figure {
     margin: 0 0.25rem 0 1rem;
 	width: 12px;
 	height: auto;
-}/**/
+    float: left;
+}
