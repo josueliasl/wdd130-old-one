@@ -21,18 +21,18 @@ body{
     max-width: 960px;
     padding: 20px;
 }
+.logo {
+	margin: 1rem;
+	width: 12px;
+	height: auto;
+    float: left;
+}
 header{
     padding: 5px;
     text-align: right;
     background: #1abc9c;
     color: #CFD15E;
     font-size: 25px;
-}
-.logo {
-	margin: 1rem;
-	width: 12px;
-	height: auto;
-    float: left;
 }
 div.hero img {
     display: block;
