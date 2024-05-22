@@ -13,7 +13,7 @@ body{
     --paragraph-font:"Arial", serif;
     --nav-background-color: #04E762;
     --nav-link-color: #04E762;
-    --nav-hover-link-color: #04e;
+    --nav-hover-link-color: #c0c0c0;
     --nav-hover-background-color: #04E762;
 }
 body{
@@ -22,34 +22,41 @@ body{
     padding: 20px;
 }
 .logo {
-	margin: 1rem;
+	margin: auto;
 	width: 12px;
 	height: auto;
     float: left;
 }
 header{
-    padding: 20px;
+    padding: 18px;
     text-align: right;
-    background: #1abc9c;
-    color: #CFD15E;
+    background:#0018ee73;
+    color: #c0c0c0;
     font-size: 15px;
 }
-div.hero img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
     flex-direction: row;
     float: right;
+    border: thick
 }
-.happy{
+h1, h2, h3{
+    text-align: center;
+    
+}
+.happy img{
     margin: 3rem;
-    width: 18px;
-    border: thin #1abc9c;
+    width: 100%;
+    height: auto;
+    border: thick #c0c0c0;
 }
 .article{
-    margin: 0;
+    margin: 2rem;
     padding: 5px;
     background-color: #c0c0c0
+
 
 }
 figure {
@@ -58,26 +65,32 @@ figure {
     padding: 5px;
     max-width: 220px;
     margin: auto;
-    grid-template-columns:repeat(6, 1fr)
+    grid-template-columns:repeat(7, 1fr)
     
 }
-  img {
+img {
     max-width: 150px;
     max-height: 150px;
   }
   
-figcaption {
+.grid {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr) ;
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
+    align-items: center;
+}
+.grid h3{
+    grid-column: 1/6;
+    justify-items: center;
+    
 }
 footer {
     text-align: center;
     padding: 3px;
-    background-color: #1abc9c;
-    color: #CFD15E;
+    background-color: #0018ee73;
+    color: #c0c0c0;
   }
 .sociallinks{
     float: right
