@@ -28,7 +28,7 @@ body{
     float: left;
 }
 header{
-    padding: 27px;
+    padding: 20px;
     text-align: right;
     background: #1abc9c;
     color: #CFD15E;
@@ -41,6 +41,17 @@ div.hero img {
     flex-direction: row;
     float: right;
 }
+.happy{
+    margin: 3rem;
+    width: 18px;
+    border: thin #1abc9c;
+}
+.article{
+    margin: 0;
+    padding: 5px;
+    background-color: #c0c0c0
+
+}
 figure {
     border: thin #c0c0c0 solid;
     display: grid;
@@ -49,7 +60,7 @@ figure {
     margin: auto;
     grid-template-columns:repeat(6, 1fr)
     
-}/**/
+}
   img {
     max-width: 150px;
     max-height: 150px;
