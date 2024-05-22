@@ -28,11 +28,11 @@ body{
     float: left;
 }
 header{
-    padding: 5px;
+    padding: 27px;
     text-align: right;
     background: #1abc9c;
     color: #CFD15E;
-    font-size: 25px;
+    font-size: 15px;
 }
 div.hero img {
     display: block;
@@ -43,12 +43,11 @@ div.hero img {
 }
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    display: grid;
     padding: 5px;
     max-width: 220px;
     margin: auto;
+    grid-template-columns:repeat(6, 1fr)
     
 }/**/
   img {
