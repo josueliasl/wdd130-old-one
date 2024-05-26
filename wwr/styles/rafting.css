@@ -11,10 +11,10 @@ body{
     --accent2-color: #C7FF92;
     --heading-font: "Times new roman", serif;
     --paragraph-font:"Arial", serif;
-    --nav-background-color: #04E762;
-    --nav-link-color: #04E762;
+    --nav-background-color: navy;
+    --nav-link-color: #c0c0c0;
     --nav-hover-link-color: #c0c0c0;
-    --nav-hover-background-color: #04E762;
+    --nav-hover-background-color: navy;
 }
 body{
     font-family: var(--poppins);
@@ -30,7 +30,7 @@ body{
 header{
     padding: 15px;
     text-align: right;
-    background:#0018ee73;
+    background:navy;
     color: #c0c0c0;
     font-size: 15px;
     display: grid;
@@ -90,8 +90,8 @@ img {
   
 .grid {
     display:grid;
-    grid-template-columns: repeat(5, 1fr) ;
-    background-color: #222;
+    grid-template-columns: repeat(3, 1fr) ;
+    background-color: #fff;
     color: #fff;
     font: italic smaller sans-serif;
     align-items: center;
@@ -104,10 +104,71 @@ img {
 footer {
     text-align: center;
     padding: 4px;
-    background-color: #0018ee73;
+    background-color: navy;
     color: #c0c0c0;
   }
 .sociallinks{
     float: right
 }
-/**/
+.form-item{
+    display: grid;
+    align-items: right;
+}
+form{
+    width:315px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display:grid;
+}
+fieldset{
+    display:grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+    
+}
+label, input, button, select, textarea{
+    font-family: Roboto, Arial, sans-serif;
+}
+label{
+    vertical-align: text-top;
+    padding: 1rem;
+    font-size: 0.6em;
+}
+input, select, textarea{
+    padding: 1rem;
+    font-size: 1em;
+    vertical-align: text-top;
+}
+input[type="checkbox"]{
+    width: 12px;
+    height: 12px;
+    vertical-align: text-top;
+}
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border:none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: darkgreen;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: navy;
+    color: #c0c0c0;
+}
