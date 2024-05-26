@@ -28,12 +28,22 @@ body{
     float: left;
 }
 header{
-    padding: 18px;
+    padding: 15px;
     text-align: right;
     background:#0018ee73;
     color: #c0c0c0;
-    font-size: 15px;
+    font-size: 12px;
+    display: grid;
 }
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+/*.logodiv{
+    display: flex;
+    float: left;
+}
+<div class="logodiv"> </div>*/
 .hero img {
     display: block;
     width: 100%;
