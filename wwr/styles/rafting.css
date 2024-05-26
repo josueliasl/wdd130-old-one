@@ -112,7 +112,7 @@ footer {
 }
 .form-item{
     display: grid;
-    align-items: center;
+    align-items: center;/**/
 }
 form{
     width:315px;
