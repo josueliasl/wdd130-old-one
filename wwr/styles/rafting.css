@@ -16,6 +16,9 @@ body{
     --nav-hover-link-color: #c0c0c0;
     --nav-hover-background-color: navy;
 }
+* {
+    box-sizing: border-box;
+  }
 body{
     font-family: var(--poppins);
     max-width: 960px;
@@ -23,7 +26,7 @@ body{
 }
 .logo {
 	margin: auto;
-	width: 12px;
+	width: 40px;
 	height: auto;
     float: left;
 }
@@ -39,6 +42,9 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+.button-container{
+    background-image:url('images_chiapas.jpg');
+}
 /*.logodiv{
     display: flex;
     float: left;
@@ -46,16 +52,18 @@ nav {
 <div class="logodiv"> </div>*/
 .hero img {
     display: block;
-    width: 100%;
+    width: 1560px;
     height: auto;
-    flex-direction: row;
-    float: right;
-    border: thick
+    border: thick;
+
 }
 h1, h2{
     text-align: center;
     
 }
+p{
+    text-align: center;
+  }
 .happy img{
     margin: 3rem;
     width: 100%;
@@ -77,7 +85,7 @@ figure {
     margin: auto;
 }
 figcaption {
-    background-color: #222;
+    background-color: navy;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
@@ -154,6 +162,20 @@ input[type="checkbox"]{
     height: 12px;
     vertical-align: text-top;
 }
+.button-container{
+    height: 200px;
+    position: relative;
+    background-color: rgb(73, 145, 85);
+    color: #fff
+}
+.vertical{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 button{
     margin: 1rem;
     background-color: navy;
@@ -162,6 +184,7 @@ button{
     border-radius: 0.5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    align-items: center;
 }
 button:hover{
     background-color: darkgreen;
@@ -172,3 +195,31 @@ footer {
     background-color: navy;
     color: #c0c0c0;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: navy;
+    color: #fff;
+  }
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+aside{
+    float: right;
+    padding: 65px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 350px; 
+  }
