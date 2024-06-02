@@ -145,7 +145,6 @@ form{
     border-radius: 0.5rem;
     background-color: #eee;
     display:grid;
-    float:left;
 }
 fieldset{
     display:grid;
