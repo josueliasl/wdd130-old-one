@@ -57,6 +57,21 @@ nav {
     border: thick;
 
 }
+.indexhero h1{
+    background-image:transparent;
+    color: green;
+    bottom: 350px;
+    right: 500px;
+}
+.indexhero img{
+    display: block;
+    height: auto;
+    float: right;
+    position:relative;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px;
+}
 h1, h2{
     text-align: center;
     
@@ -130,6 +145,7 @@ form{
     border-radius: 0.5rem;
     background-color: #eee;
     display:grid;
+    float:left;
 }
 fieldset{
     display:grid;
@@ -184,7 +200,7 @@ button{
     border-radius: 0.5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    align-items: center;
+    float: center;
 }
 button:hover{
     background-color: darkgreen;
@@ -222,4 +238,20 @@ aside{
     width: 70%;
     background-color: #f1f1f1;
     height: 350px; 
-  }
+}
+.grid-home {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    background-color: #fff;
+    color: #fff;
+    font: arial;
+    font-size:0.5cm;
+}
+.grid-home figure{
+    float:center;
+}
+.grid-home h2{
+    grid-column: 1/6;
+    justify-items: center;
+    
+}
