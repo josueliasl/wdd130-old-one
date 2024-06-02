@@ -58,7 +58,7 @@ nav {
 
 }
 .indexhero h1{
-    background-image:transparent;
+    background-image:#fff;
     color: green;
     bottom: 350px;
     right: 500px;
@@ -199,7 +199,6 @@ button{
     border-radius: 0.5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    float: center;
 }
 button:hover{
     background-color: darkgreen;
@@ -243,11 +242,7 @@ aside{
     grid-template-columns: repeat(3, 1fr) ;
     background-color: #fff;
     color: #fff;
-    font: arial;
     font-size:0.5cm;
-}
-.grid-home figure{
-    float:center;
 }
 .grid-home h2{
     grid-column: 1/6;
